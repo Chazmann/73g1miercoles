@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Roboto:wght@100;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*------TIPOGRAFIAS ------*/
+
+.lato {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw700 {
+    font-weight: 700;
 }
 
 header {
@@ -12,25 +32,40 @@ header {
     /*ancho*/
     margin: auto;
     /* me sirve para centrar un elemento que no ocupe el 100% de ancho*/
+ display: flex;
+ justify-content: space-between;
+
 }
 
-footer{
+header .marca{
+    background-color: violet;
+    padding: 0.5em;
+    color: white;
+    font-size: 12pt;
+}
+
+header .social{
+    background-color: aquamarine;
+    padding: 0.5em;
+}
+
+footer {
     /*VERIFICAR margin-bottom CUANDO AGREGUE CONTENIDO A .contenido*/
     height: 60px;
     width: 100%;
-    background-color: rgba(18, 21, 19, 0.888); 
+    background-color: rgba(18, 21, 19, 0.888);
     position: fixed;
     bottom: 0;
+    color:white
 }
 
-.contenido{
-height: 800px;
-width: 80%;
-margin: auto;
-background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-margin-bottom: 60px;
+.contenido {
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    margin-bottom: 60px;
 
 
 }
-
