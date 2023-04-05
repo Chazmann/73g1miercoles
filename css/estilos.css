@@ -64,10 +64,26 @@ header .social {
     text-shadow: 0 0 5px rgb(124, 164, 189);
 }
 
-.card {
+.contenedor {
+    margin: auto;
+    display: flex;
+    /*habilita flexbox al contenido de mi selector*/
+    gap: 10px; /*similar a MARGIN*/
+    flex-direction: row;
+}
+
+.card { 
     position: relative;
-    width: 60%;
-    height: 500px;
+    flex: 1 0 300px;  background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+   height: 500px; 
+    /*forma abreviada de utilizar las 3 propiedades que vienen a continuación*/
+    /*flex-grow:1;permite o no que el contenedor se agrande siempre que haya espacio*/
+    /*flex-shrink: 0; /*permite o no que el contenedor se achique*/
+    /*flex-basis: 100px; /*permite definir un ancho o alto fijo*/
+    /* width: 60%; */
+    /* height: 500px; */
     background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 20px;
@@ -75,7 +91,7 @@ header .social {
 
 .card .imagen {
     width: 100%;
-    height: 50%;
+    height: 200px;
     background-color: red;
     margin-bottom: 10px;
 }
@@ -96,8 +112,10 @@ header .social {
     font-size: 12pt;
 
 }
-.card .boton:hover{
-    box-shadow: 0 0 5px black}
+
+.card .boton:hover {
+    box-shadow: 0 0 5px black
+}
 
 
 
