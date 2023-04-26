@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +13,16 @@
 
     <title>Restaurante</title>
 </head>
+
 <body>
     <section class="portada ♥">
         <div class="mensaje roboto">
-            <h2>Buenas noches, Juan Segundo</h2>
-            <h5>Es hora de cenar!</h5>
+            <div class="texto">
+                <h2>Buenas noches, Juan Segundo</h2>
+                <h5>Es hora de cenar!</h5>
+            </div>
+            <!-- ACA VOY A PEGAR LO QUE ME VA A ENVIAR CHAZA -->
+
 
             <div class="busqueda">
                 <div class="icono material-icons-outlined">
@@ -26,15 +32,97 @@
 
                 <input type="search" placeholder="Buscar restaurante" class="roboto">
                 <input type="submit" class="material-icons-outlined" value="search">
-            
+
             </div>
 
         </div>
     </section>
+    <!-- ------------FIN DE PORTADA------------------>
+
+    <section class="menu roboto">
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">local_cafe</i>
+                    <p>Desayuno</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">lunch_dining</i>
+                    <p>Fast Food</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">ramen_dining</i>
+                    <p>Sopa</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">bakery_dining</i>
+                    <p>Medialunas</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">set_meal</i>
+                    <p>Pescado</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">tapas</i>
+                    <p>Tapas</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">brunch_dining</i>
+                    <p>Brunch</p>
+                </a>
+            </li>
 
 
-    <section class="menu"></section>
-    <section class="productos"></section>
+        </ul>
+
+
+
+    </section>
+
+
+    <section class="productos">
+        <h2>Restaurantes</h2>
+        <div class="restos">
+            <article class="card">
+                <div class="img">
+                    <img src="img/resto2.jfif">
+                </div>
+                <div class="datosresto">
+                    <h3>Cuba resto</h3>
+                    <h4>Comida cubana y caribeña</h4>
+
+
+                    <div class="valores">
+                        <div class="estrellas">
+                            <i class="material-icons-outlined">
+                                star star star star_half star_outlined
+                            </i>
+                        </div>
+                        <div class="rangoprecio">   
+                            <i class="material-icons-outlined">
+                                attach_money attach_money attach_money
+                            </i>
+                        </div>
+                    </div>
+
+
+                </div>
+            </article>
+        </div>
+    </section>
 
 </body>
+
 </html>
