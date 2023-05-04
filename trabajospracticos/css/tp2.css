@@ -209,28 +209,28 @@
 
 }
 
-.card .img{
+.card .img {
     flex: 0 0 40%;
     background-color: brown;
     overflow: hidden;
 }
 
-.img > img{
- 
-    object-fit: cover;   
+.img>img {
+
+    object-fit: cover;
 }
 
-.card .datosresto{
+.card .datosresto {
     padding: 12px;
     flex: 0 0 60%;
     background-color: rgb(154, 120, 120);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
-.valores{
+.valores {
     display: flex;
     justify-content: space-between;
 }
@@ -240,3 +240,127 @@
 
 
 /*-----------FIN PRODUCTOS-----------*/
+
+.pa {
+    position: absolute;
+}
+
+.posrel {
+    position: relative;
+}
+
+.valoracion {
+    position: absolute;
+    background-color: aquamarine;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    bottom: -20px;
+    right: 20px;
+    color: black;
+    font-weight: 700;
+    border-radius: 15px 0;
+    box-shadow: 0 0 15px -2px rgba(0, 0, 0, 0.351);
+
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+main {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+main ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+main ul li {
+    text-align: center;
+}
+
+.nav_mobile {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav_mobile ul {
+    display: flex;
+    /*aplica FLEXBOX al contenedor*/
+    justify-content: space-around;
+    /*separa los elementos de manera proporcionada al espacio disponible*/
+
+}
+
+.nav_mobile ul li {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav_mobile a {
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.nav_mobile ul li:hover {
+    color: black;
+    border-top: solid 4px aquamarine
+}
+
+/* PROPIEDADES PARA menu.html */
+
+.banner {
+    width: 100%;
+
+    padding: 10px;
+}
+
+.banner button {
+    left: 20px;
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+}
+
+.banner button:hover {
+    background-color: aquamarine;
+}
+
+.item_menu {
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.plato {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.item_menu span{background-color: orange;}
+
+
+/* ordenamiento de elementos*/
+.flex {
+    display: flex;
+}
+
+.centrar_vert {
+    align-items: center;
+}
+
+.centrar_h {
+    justify-content: center;
+}
