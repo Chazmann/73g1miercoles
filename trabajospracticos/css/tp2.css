@@ -349,7 +349,9 @@ main ul li {
     border-radius: 50%;
 }
 
-.item_menu span{background-color: orange;}
+.item_menu span {
+    background-color: orange;
+}
 
 
 /* ordenamiento de elementos*/
@@ -364,3 +366,46 @@ main ul li {
 .centrar_h {
     justify-content: center;
 }
+
+/* PROPIEDADES GENERALES PARA EL LINK */
+a {
+    text-decoration: none;
+}
+
+/* CUANDO SE POSICIONA EL CURSOR SOBRE EL LINK */
+a:hover {}
+
+/* LINK ES ESTADO INICIAL DEL LINK Y ACTIVE CUANDO SE DA CLICK LINK */
+a:link,
+a:active {}
+
+/* ESTADO EL LINK HA SIDO CLICKEADO CON ANTERIORIDAD*/
+a:visited {}
+
+.producto {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    background-color: yellow;    
+}
+
+.obj_fit {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.producto .titulo{
+    z-index: 1; /*nivel de capa del elemento*/
+    background-color: red;
+    width: 70%;
+    bottom: 0;
+    margin: auto;
+}
+
+
+
+
+
+
+
